@@ -1,7 +1,12 @@
 Proof-of-Concept `C++` library for loading and performing analysis on CSV files
 - [Soccer Performance Data](https://www.kaggle.com/datasets/michaelhegedusich/soccer-performance-data) included in `data/` for examples.
 
-## Usage
+## Compiling
+
+Only relies on `std C++` libraries:
+- e.g. compilation: `g++ -o csv csv.cpp`
+
+## Example
 The following is an example sequence of analysis steps:
 - Load CSV from file with default constructor: `CSV soccer_stats = CSV(csv_path);`
 - Optionally create a filter by first instantiating a `Comparison` object: `Equals_Str eq_p {"Practice"};` and then passing that object to the `CSV_Filter` constructor: `CSV_Filter st_eq_p = CSV_Filter("Session_Type", &eq_p);`
