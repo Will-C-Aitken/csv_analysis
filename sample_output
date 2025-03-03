@@ -1,0 +1,70 @@
+Player Average Session Max Speed (Practice)
+Aaron: 27.2243
+Bill: 27.9043
+Caden: 27.4349
+Elijiah: 27.8051
+Franco: 28.0731
+Jack: 27.9734
+Jonathon: 27.6603
+Micah: 28.116
+Santiago: 28.1317
+Trevor: 27.7129
+
+Player Average Session Max Speed (Game)
+Aaron: 27.585
+Bill: 27.1433
+Caden: 28.0667
+Elijiah: 29.3517
+Franco: 27.56
+Jack: 27.9233
+Jonathon: 27.1583
+Micah: 28.6433
+Santiago: 27.93
+Trevor: 27.6333
+
+Player Mode Sleep Quality
+Aaron: 8
+Bill: 7
+Caden: 7.5
+Elijiah: 8
+Franco: 6
+Jack: 8.5
+Jonathon: 7.5
+Micah: 7.5
+Santiago: 6
+Trevor: 8.5
+
+Player Median Sleep Quality
+Aaron: 8
+Bill: 7.5
+Caden: 7.5
+Elijiah: 8
+Franco: 7.5
+Jack: 8
+Jonathon: 8
+Micah: 7.5
+Santiago: 8
+Trevor: 8
+
+Player Mean Sleep Quality
+Aaron: 7.7439
+Bill: 7.57317
+Caden: 7.5
+Elijiah: 7.71951
+Franco: 7.52439
+Jack: 7.70732
+Jonathon: 7.80488
+Micah: 7.57317
+Santiago: 7.7561
+Trevor: 7.67073
+
+Players Faster in Game than Practice:
+Aaron
+Caden
+Elijiah
+Micah
+
+N = 3 Players with worst average Sleep Quality:
+Caden
+Franco
+Bill
