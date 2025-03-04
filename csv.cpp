@@ -198,10 +198,14 @@ double median(vector<double> &v) {
 
 double mode(vector<double>& v) {
     sort(v.begin(), v.end());
-    double mode = v[0]; 
-    double cur_d;
+    double mode; 
+    double cur_d = v[0];
     int cur_count = 1;
     int max_count = 0;
+    
+    // pop first element since it's already counted
+    v.erase(v.begin()); 
+
     for (const double& d : v) {
 	if (d != cur_d) {
 	    if (cur_count > max_count) {
@@ -214,6 +218,11 @@ double mode(vector<double>& v) {
 	else
 	    cur_count++;
     }
+
+    // in case the last count is mode
+    if (cur_count > max_count)
+	mode = cur_d;
+
     return mode;
 }
 
